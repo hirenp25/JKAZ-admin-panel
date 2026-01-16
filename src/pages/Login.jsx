@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useTheme } from '../context/ThemeContext'; // <--- Import Theme Hook
+import { useTheme } from '../context/ThemeContext'; 
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -9,7 +9,7 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   
   const navigate = useNavigate();
-  const { theme, toggleTheme } = useTheme(); // <--- Get Theme State
+  const { theme, toggleTheme } = useTheme(); 
 
   const handleLogin = (e) => {
     e.preventDefault();
