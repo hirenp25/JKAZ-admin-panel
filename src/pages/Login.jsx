@@ -30,7 +30,7 @@ const Login = () => {
   return (
     <div className="min-h-screen flex bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
       
-      {/* Left Side - Image (Hidden on Mobile) */}
+      
       <div 
         className="hidden lg:flex w-1/2 bg-cover bg-center relative items-center justify-center"
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1902&q=80')" }}
@@ -44,10 +44,10 @@ const Login = () => {
         </div>
       </div>
 
-      {/* Right Side - Login Form */}
+      
       <div className="w-full lg:w-1/2 flex items-center justify-center relative">
         
-        {/* --- Theme Toggle Button (Top Right Corner) --- */}
+       
         <button 
           onClick={toggleTheme} 
           className="absolute top-4 right-4 p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-yellow-300 shadow-sm hover:shadow-md transition-all duration-300"
