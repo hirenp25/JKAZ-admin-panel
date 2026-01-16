@@ -17,6 +17,7 @@ import Calendar from './pages/Calendar';
 import Chat from './pages/Chat';
 import OrderDetails from './pages/OrderDetails';
 import Customers from './pages/Customers';
+import FileManager from './pages/FileManager';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route path="kanban" element={<Kanban />} />
           <Route path="calendar" element={<Calendar />} />
           <Route path="chat" element={<Chat />} />
+          <Route path="files" element={<FileManager />} />
         </Route>
       </Route>
 

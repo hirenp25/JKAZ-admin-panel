@@ -3,6 +3,7 @@ import { Link, Outlet, useNavigate } from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
 import { useTheme } from '../context/ThemeContext';
 import HeaderNotifications from '../components/HeaderNotifications';
+import Breadcrumbs from '../components/Breadcrumbs';
 
 const DashboardLayout = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -78,6 +79,7 @@ const DashboardLayout = () => {
 
           {/* Page Content */}
           <div className="p-6">
+            <Breadcrumbs />
             <Outlet />
           </div>
 
