@@ -22,6 +22,9 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
 
   return (
     <>
+    <aside 
+  className="h-screen overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+>
       <div className={`fixed inset-y-0 left-0 z-30 w-64 bg-slate-900 dark:bg-gray-900 text-white transform transition-transform duration-300 ease-in-out 
         ${isOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0 md:static md:inset-0 shadow-xl flex flex-col`}
       >
@@ -115,6 +118,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         </div>
 
       </div>
+      </aside>
     </>
   );
 };
