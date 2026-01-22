@@ -12,7 +12,7 @@ const Register = () => {
       >
         <div className="absolute inset-0 bg-purple-900 bg-opacity-70"></div>
         <div className="relative z-10 text-white text-center px-12">
-           <h1 className="text-5xl font-bold mb-6">Join Nexus</h1>
+           <h1 className="text-5xl font-bold mb-6">Join JKAZ</h1>
            <p className="text-xl text-purple-200">Start managing your business smarter, faster, and better.</p>
         </div>
       </div>
@@ -22,7 +22,7 @@ const Register = () => {
         <div className="max-w-md w-full">
            <div className="text-center mb-8">
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Create Account</h2>
-              <p className="text-gray-500 dark:text-gray-400 mt-2">Get your free Nexus account now.</p>
+              <p className="text-gray-500 dark:text-gray-400 mt-2">Get your free JKAZ account now.</p>
            </div>
 
            <form className="space-y-4">

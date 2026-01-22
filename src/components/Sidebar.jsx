@@ -30,7 +30,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
            <div className="bg-blue-600 p-2 rounded-lg mr-3">
              <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
            </div>
-           <h1 className="text-2xl font-bold tracking-wider">NEXUS<span className="text-blue-500">ADMIN</span></h1>
+           <h1 className="text-2xl font-bold tracking-wider">JKAZ<span className="text-blue-500">ADMIN</span></h1>
         </div>
 
         {/* Menu Items */}
@@ -111,7 +111,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
               Upgrade Now
             </button>
           </div>
-          <p className="text-xs text-gray-500 text-center mt-3">v1.0.2 © Nexus</p>
+          <p className="text-xs text-gray-500 text-center mt-3">v1.0.2 © Jkaz</p>
         </div>
 
       </div>
