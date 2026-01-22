@@ -30,6 +30,50 @@ export const MENU_ITEMS = [
     path: "/files",
     icon: (className) => <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z" /></svg>
   },
+  // ... File Manager ke baad
+  {
+    title: "Crypto Dashboard",
+    path: "/crypto",
+    icon: (className) => <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
+  },
+  
+  // --- Pages Section ---
+  {
+    title: "Pages",
+    icon: (className) => <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>,
+    submenu: true,
+    subMenuItems: [
+      { title: "Profile", path: "/profile" },
+      { title: "Pricing ", path: "/pricing" },
+      { title: "FAQ ", path: "/faq" },
+    ]
+  },
+  // ... Pages section ke baad
+  {
+    title: "UI Elements",
+    icon: (className) => <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" /></svg>,
+    submenu: true,
+    subMenuItems: [
+      { title: "Components", path: "/ui/components" },
+      { title: "Forms ", path: "/ui/forms" },
+    ]
+  },
+  // ... UI Elements ke baad
+  {
+    title: "Charts",
+    path: "/charts",
+    icon: (className) => <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" /></svg>
+  },
+  // ...
+{
+  title: "Tables",
+  path: "/tables",
+  icon: (className) => <svg className={className} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M3 14h18m-9-4v8m-7 0h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+},
+// ...
+// ...
+// ...
+// ...
   {
     title: "Users & Roles",
     path: "/users",

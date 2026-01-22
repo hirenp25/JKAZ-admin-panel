@@ -18,13 +18,28 @@ import Chat from './pages/Chat';
 import OrderDetails from './pages/OrderDetails';
 import Customers from './pages/Customers';
 import FileManager from './pages/FileManager';
+import Crypto from './pages/Crypto';
+import Profile from './pages/Profile';
+import Register from './pages/Register';
+import ForgotPassword from './pages/ForgotPassword';
+import LockScreen from './pages/LockScreen';
+import Maintenance from './pages/Maintenance';
+import Pricing from './pages/Pricing';
+import UiComponents from './pages/UiComponents';
+import Forms from './pages/Forms';
+import Charts from './pages/Charts';
+import DataTables from './pages/DataTables';
 
 function App() {
   return (
     <Routes>
       {/* Public Route */}
+      
       <Route path="/login" element={<Login />} />
-
+      <Route path="/register" element={<Register />} />
+      <Route path="/forgot-password" element={<ForgotPassword />} />
+      <Route path="/lock-screen" element={<LockScreen />} />
+      <Route path="/maintenance" element={<Maintenance />} />
       {/* Protected Routes */}
       <Route element={<PrivateRoute />}>
         <Route path="/" element={<DashboardLayout />}>
@@ -41,6 +56,13 @@ function App() {
           <Route path="calendar" element={<Calendar />} />
           <Route path="chat" element={<Chat />} />
           <Route path="files" element={<FileManager />} />
+          <Route path="crypto" element={<Crypto />} />
+          <Route path="profile" element={<Profile />} />
+          <Route path="pricing" element={<Pricing />} />
+          <Route path="ui/components" element={<UiComponents />} />
+          <Route path="ui/forms" element={<Forms />} />
+          <Route path="charts" element={<Charts />} />
+          <Route path="tables" element={<DataTables />} />
         </Route>
       </Route>
 

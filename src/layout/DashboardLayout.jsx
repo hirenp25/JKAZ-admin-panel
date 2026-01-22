@@ -4,6 +4,7 @@ import Sidebar from '../components/Sidebar';
 import { useTheme } from '../context/ThemeContext';
 import HeaderNotifications from '../components/HeaderNotifications';
 import Breadcrumbs from '../components/Breadcrumbs';
+import ThemeCustomizer from '../components/ThemeCustomizer';
 
 const DashboardLayout = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -81,6 +82,7 @@ const DashboardLayout = () => {
           <div className="p-6">
             <Breadcrumbs />
             <Outlet />
+            <ThemeCustomizer />
           </div>
 
         </main>

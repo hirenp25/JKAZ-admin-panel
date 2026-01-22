@@ -104,7 +104,7 @@ const Login = () => {
             <div>
               <div className="flex justify-between items-center mb-1">
                 <label className="block text-sm font-medium text-gray-700 dark:text-gray-300">Password</label>
-                <a href="#" className="text-xs text-blue-600 hover:text-blue-800">Forgot Password?</a>
+                <a href="/forgot-password" className="text-xs text-blue-600 hover:text-blue-800">Forgot Password?</a>
               </div>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -141,7 +141,7 @@ const Login = () => {
           </form>
 
           <p className="mt-8 text-center text-sm text-gray-600 dark:text-gray-400">
-            Don't have an account? <a href="#" className="text-blue-600 font-semibold hover:underline">Contact Admin</a>
+            Don't have an account? <a href="/register" className="text-blue-600 font-semibold hover:underline">Contact Admin</a>
           </p>
         </div>
       </div>
